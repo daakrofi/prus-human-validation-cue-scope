@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>PRUS Human Validation — Cue-and-Scope Codebook</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css?v=20260718-hybrid-v1" />
+    <link rel="stylesheet" href="styles.css?v=20260718-hybrid-v2" />
   </head>
   <body>
     <main class="shell">
@@ -152,8 +152,66 @@
           </div>
         </section>
 
+        <section class="instruction-section examples-section" aria-labelledby="examples-heading">
+          <div class="instruction-section-head">
+            <p class="section-kicker">Examples</p>
+            <h2 id="examples-heading">MOST COMMON EXAMPLE TYPES</h2>
+            <p>
+              The following examples show how the two-part PRUS check applies to three common forms
+              of pre-release discussion. Compare the PRUS and Not PRUS cases within each group.
+            </p>
+          </div>
+
+          <section class="boundary-guide" aria-labelledby="statement-guide-heading">
+            <div class="boundary-guide-head">
+              <p class="example-family-number">Example type 1</p>
+              <h3 id="statement-guide-heading">Claims, explanations, predictions, and interpretations</h3>
+              <p>
+                These are PRUS when the user puts forward an idea about the game while treating it as
+                possible or not fully certain. The same subject matter is Not PRUS when stated as a
+                firm fact or opinion without uncertainty.
+              </p>
+            </div>
+            <div class="boundary-row">
+              <p class="boundary-label prus-label">PRUS</p>
+              <div>
+                <p><strong>A possible explanation for something shown before release.</strong></p>
+                <p class="example">“The locked building probably becomes a player base later.”</p>
+              </div>
+            </div>
+            <div class="boundary-row">
+              <p class="boundary-label prus-label">PRUS</p>
+              <div>
+                <p><strong>A prediction presented with reduced certainty.</strong></p>
+                <p class="example">“With a map that large, matches might take longer than the trailer suggests.”</p>
+              </div>
+            </div>
+            <div class="boundary-row">
+              <p class="boundary-label prus-label">PRUS</p>
+              <div>
+                <p><strong>An interpretation that leaves alternatives unresolved.</strong></p>
+                <p class="example">“Either the final game has another region, or that rail line is only decorative.”</p>
+              </div>
+            </div>
+            <div class="boundary-row">
+              <p class="boundary-label not-prus-label">Not PRUS</p>
+              <div>
+                <p><strong>A future fact stated without uncertainty.</strong></p>
+                <p class="example">“The game launches next Friday.”</p>
+              </div>
+            </div>
+            <div class="boundary-row">
+              <p class="boundary-label not-prus-label">Not PRUS</p>
+              <div>
+                <p><strong>A direct opinion that does not advance an uncertain idea.</strong></p>
+                <p class="example">“The combat shown in the trailer looks boring.”</p>
+              </div>
+            </div>
+          </section>
+
         <section class="boundary-guide" aria-labelledby="question-guide-heading">
           <div class="boundary-guide-head">
+            <p class="example-family-number">Example type 2</p>
             <h3 id="question-guide-heading">Questions, requests, hopes, and suggestions</h3>
             <p>
               These forms can express PRUS when they put a possible product state, explanation, or
@@ -221,6 +279,7 @@
 
         <section class="boundary-guide" aria-labelledby="prerelease-build-guide-heading">
           <div class="boundary-guide-head">
+            <p class="example-family-number">Example type 3</p>
             <h3 id="prerelease-build-guide-heading">Demos, betas, and Early Access</h3>
             <p>
               Current experiences with a pre-release build can supply evidence for an uncertain
@@ -270,6 +329,7 @@
             </p>
           </div>
         </section>
+        </section>
 
         <section class="boundary-guide" aria-labelledby="exclusions-heading">
           <div class="boundary-guide-head">
@@ -285,23 +345,33 @@
           </ul>
         </section>
 
-        <div class="domain-grid">
-          <article>
-            <h3>Content</h3>
-            <p>Speculation about story, mechanics, characters, modes, maps, features, monetization, or gameplay experience.</p>
-            <p class="example">Example: "The demo probably hints at a bigger crafting system."</p>
-          </article>
-          <article>
-            <h3>Performance</h3>
-            <p>Speculation about technical quality, optimization, FPS, bugs, crashes, servers, or launch stability.</p>
-            <p class="example">Example: "It might run badly on older GPUs at launch."</p>
-          </article>
-          <article>
-            <h3>Requirements / Access</h3>
-            <p>Speculation about platform access, hardware specs, storage, regions, editions, release timing, or play conditions.</p>
-            <p class="example">Example: "The full version may need more RAM than the demo."</p>
-          </article>
-        </div>
+        <section class="instruction-section domain-section" aria-labelledby="domains-heading">
+          <div class="instruction-section-head">
+            <p class="section-kicker">Classification</p>
+            <h2 id="domains-heading">PRODUCT TOPIC DOMAINS</h2>
+            <p>
+              After identifying a post as PRUS, select every product topic domain covered by the
+              relevant sentence or passage. A single post may involve more than one domain.
+            </p>
+          </div>
+          <div class="domain-grid">
+            <article>
+              <h3>Content</h3>
+              <p>Speculation about story, mechanics, characters, modes, maps, features, monetization, or gameplay experience.</p>
+              <p class="example">Example: "The demo probably hints at a bigger crafting system."</p>
+            </article>
+            <article>
+              <h3>Performance</h3>
+              <p>Speculation about technical quality, optimization, FPS, bugs, crashes, servers, or launch stability.</p>
+              <p class="example">Example: "It might run badly on older GPUs at launch."</p>
+            </article>
+            <article>
+              <h3>Requirements / Access</h3>
+              <p>Speculation about platform access, hardware specs, storage, regions, editions, release timing, or play conditions.</p>
+              <p class="example">Example: "The full version may need more RAM than the demo."</p>
+            </article>
+          </div>
+        </section>
 
         <button type="button" class="primary wide" id="start-exercise">Start Coding</button>
       </section>

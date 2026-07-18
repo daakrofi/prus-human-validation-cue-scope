@@ -256,6 +256,45 @@ button:disabled {
   margin: 16px 0;
 }
 
+.instruction-section {
+  margin-top: 36px;
+  padding-top: 28px;
+  border-top: 3px solid var(--ink);
+}
+
+.instruction-section-head {
+  max-width: 820px;
+}
+
+.instruction-section-head h2 {
+  margin-bottom: 10px;
+  font-size: 21px;
+  letter-spacing: 0.025em;
+}
+
+.instruction-section-head > p:last-child {
+  max-width: 78ch;
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.section-kicker {
+  margin-bottom: 7px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.examples-section > .boundary-guide {
+  margin: 22px 0 0;
+}
+
+.examples-section > .boundary-guide + .boundary-guide {
+  margin-top: 30px;
+}
+
 .domain-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -296,6 +335,16 @@ button:disabled {
   max-width: 76ch;
   margin-top: 6px;
   color: var(--muted);
+}
+
+.boundary-guide-head .example-family-number {
+  max-width: none;
+  margin: 0 0 6px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .boundary-row {
